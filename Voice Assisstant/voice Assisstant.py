@@ -26,7 +26,7 @@ class AssistanceGUI:
         bg_label.place(x=0, y=0, relwidth=1, relheight=1)  # Cover full frame
 
         # Load center image
-        self.centre = ImageTk.PhotoImage(file="vs.webp")
+        self.centre = ImageTk.PhotoImage(file="49265706.jpg")
         center_label = Label(self.root, image=self.centre)
         center_label.place(relx=0.5, rely=0.5, anchor=CENTER)  # Place in center
         center_label.config(width=170, height=170)  # Set width and height
@@ -135,3 +135,4 @@ class AssistanceGUI:
 root = Tk()
 obj = AssistanceGUI(root)
 root.mainloop()
+
